@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Message</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: white;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 3rem;
+            text-align: center;
+            transition: all 1s ease-in-out;
+        }
+        .message {
+            display: none;
+            color: red;
+        }
+        .message img {
+            width: 200px; /* Adjust size */
+            height: auto;
+            margin-top: 20px;
+            border-radius: 15px; /* Soft rounded corners */
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            document.body.style.backgroundColor = '#ffe6f2'; // Soft pink background
+            document.querySelector('.message').style.display = 'block';
+        }, 500); // Show message after 0.5 seconds
+    </script>
+</head>
+<body>
+    <div class="message">
+        🌸💖 I love u Shrauu 💖🌸<br>
+        🌷🌼🌺 Forever & Always 🌺🌼🌷<br>
+        <!-- Add your images below -->
+        <img src="/shrau.jpg" alt="bayko photo">
+        
+    </div>
+</body>
+</html>
